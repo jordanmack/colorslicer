@@ -1,0 +1,37 @@
+.color
+{
+	border: 1px solid #cccccc;
+	display: inline-block;
+	height: 68px;
+	margin-right: 5px;
+	padding: 10px;
+	position: relative;
+	width: 68px;
+}
+.label
+{
+	background: transparent;
+	border: none;
+	color: white;
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	width: calc(100% - 20px);
+}
+.label:active,
+.label:focus
+{
+	box-shadow: none;
+	outline: none;
+}
+.outputColors
+{
+	padding: 10px;
+	width: 960px;
+}
+.outputJson
+{
+	padding: 10px;
+	width: 960px;
+}

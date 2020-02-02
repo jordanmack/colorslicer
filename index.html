@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<title>Color Slicer</title>
+	<link rel="stylesheet" href="site.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tinyColorPicker/1.1.1/jqColorPicker.min.js"></script>
+	<script src="site.js"></script>
+</head>
+
+<body>
+	<input id="color1" type="text" value="#000000">
+	<input id="color2" type="text" value="#FFFFFF">
+	<input id="slices" type="number" value="12" min="2">
+	<input id="calculate" type="button" value="Calculate">
+
+	<div id="outputColors" class="outputColors">
+	</div>
+
+	<textarea id="outputJson" class="outputJson">
+	</textarea>
+</body>
+
+</html>
